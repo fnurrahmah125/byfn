@@ -37,12 +37,13 @@ nav {
 
 .menu {
   position: fixed;
-  bottom: 0;
+  top: 0;
   right: 0;
   z-index: 1;
   transform: translateX(100%);
   width: 75%;
-  height: calc(100vh - 45px);
+  height: 100vh;
+  padding-top: 2.5rem;
   text-align: right;
   background-color: #fff;
   transition: 0.5s;
